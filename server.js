@@ -93,7 +93,7 @@ app.get("/validate", function(req, res){
 
 
 
-app.listen(80, function(e){
+app.listen(process.env.PORT, function(e){
 
     console.log(e)
 })
